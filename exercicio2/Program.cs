@@ -9,7 +9,6 @@ namespace NamespaceProgram
             int op = 0;
             do 
             {
-                
                 Console.WriteLine("[1] - Exercicio 1");
                 Console.WriteLine("[2] - Exercicio 2");
                 Console.WriteLine("[3] - Exercicio 3");
@@ -20,13 +19,11 @@ namespace NamespaceProgram
                 Console.WriteLine("[8] - Exercicio 8");
                 Console.WriteLine("[9] - Exercicio 9");
                 Console.WriteLine("[10] - Exercicio 10");
-                Console.WriteLine("[11] - Exercicio 11");
                 Console.WriteLine("[0] - Sair");
                 Console.Write("Escolha uma opção: ");
                 try
                 {
-                    op = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Opção escolhida: " + op);    
+                    op = int.Parse(Console.ReadLine());    
                 } 
                 catch (Exception e)
                 {
@@ -64,9 +61,6 @@ namespace NamespaceProgram
                         break;
                     case 10:
                         NamespaceExercicioDez.ExercicioDez.ExercicioDezTask();
-                        break;
-                    case 11:
-                        NamespaceExercicioOnze.ExercicioOnze.ExercicioOnzeTask();
                         break;
                     case 0:
                         Console.WriteLine("Saindo...");
